@@ -125,9 +125,9 @@ Here's how we want our game to run:
 
 Use a loop constructor (I'd recommend `until`, but that is by no means your only option) to enact the above game play in the `run` method. Then, check out the `lib/runner.rb` file. Notice that it is simply calling the `run` method. The runner file will call the `run` method which should in turn utilize all the other methods you built!
 
-
-
-  
-
 ## Resources
 * [Wikipedia](http://en.wikipedia.org/) - [Blackjack](http://en.wikipedia.org/wiki/Blackjack)
+
+
+
+test tesst
