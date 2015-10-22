@@ -96,7 +96,7 @@ To run our program, we need to call all of these methods. Instead of calling eac
 def run_program
 	welcome
 	ask_name
-	name store_name
+	name = store_name
 	personalized_welcome(name)
 end
 ```
@@ -188,9 +188,9 @@ If the player's input is *neither* `'h'` *nor* `'s'`, call on the `#invalid_comm
 
 In either case, our method should then return the player's current card total. 
 
-### The Runner Method: `#run`
+### The Runner Method: `#runner`
 
-Once you get all of the tests in the first part of the test suite passing, you have built the building blocks of our blackjack game. Now, we need to put them all together in the `#run` method. The `#run` method is responsible for enacting the game play *until* the user looses. Remember that a player looses if the sum of their cards exceeds 21. 
+Once you get all of the tests in the first part of the test suite passing, you have built the building blocks of our blackjack game. Now, we need to put them all together in the `#runner` method. The `#runner` method is responsible for enacting the game play *until* the user looses. Remember that a player looses if the sum of their cards exceeds 21. 
 
 Here's how we want our game to run: 
 
