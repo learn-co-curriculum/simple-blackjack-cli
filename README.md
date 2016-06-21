@@ -172,7 +172,7 @@ This method is very basic. It only needs to use the `gets` method to capture the
 
 #### The `#end_game` Method
 
-This method takes in an argument of a number, which will be a player's card total, and outputs the message "Sorry, you hit #{card_total}. Thanks for playing!"
+This method takes in an argument of a number, which will be a player's card total, and outputs the message "Sorry, you hit #{card_total}". Thanks for playing!"
 
 #### The `#initial_round` Method
 
@@ -209,3 +209,5 @@ Use a loop constructor (I'd recommend `until`, but that is by no means your only
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/simple-blackjack-cli' title='Simple Blackjack CLI'>Simple Blackjack CLI</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/simple-blackjack-cli'>Blackjack CLI</a> on Learn.co and start learning to code for free.</p>
