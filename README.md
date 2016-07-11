@@ -172,7 +172,7 @@ This method is very basic. It only needs to use the `gets` method to capture the
 
 #### The `#end_game` Method
 
-This method takes in an argument of a number, which will be a player's card total, and outputs the message "Sorry, you hit #{card_total}. Thanks for playing!"
+This method takes in an argument of a number, which will be a player's card total, and outputs the message "Sorry, you hit #{card_total}". Thanks for playing!"
 
 #### The `#initial_round` Method
 
